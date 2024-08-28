@@ -1,18 +1,18 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
+  "description": "Weather application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "axios": "^1.7.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.4"
   }
 }
